@@ -35,3 +35,9 @@ function ldp_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'ldp_pingback_header' );
+
+/**Return the base path of the theme
+ */
+function ldp_get_theme_base_path() {
+	echo 'wp-content/themes/ldp/theme-files/';
+}

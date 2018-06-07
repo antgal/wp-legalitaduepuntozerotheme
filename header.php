@@ -12,91 +12,158 @@
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
-<head>
+	<head>
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-	<!--link rel="profile" href="https://gmpg.org/xfn/11" -->
-	<?php wp_head(); ?>
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">	
 
-	<!-- Basic -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="<?php ldp_get_theme_base_path(); ?>img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="<?php ldp_get_theme_base_path(); ?>img/apple-touch-icon.png">	
 
-	<!-- Mobile Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">	
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">		
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">	
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/font-awesome/css/fontawesome-all.min.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/animate/animate.min.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/magnific-popup/magnific-popup.min.css">
 
-	<!-- Web Fonts  -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">		
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>css/theme.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>css/theme-elements.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>css/theme-blog.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>css/theme-shop.css">
 
-	<!-- Vendor CSS -->
-	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
-	<link rel="stylesheet" href="vendor/animate/animate.min.css">
-	<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
-	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
-	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/rs-plugin/css/settings.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/rs-plugin/css/layers.css">
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>vendor/rs-plugin/css/navigation.css">
+		
+		<!-- Demo CSS -->
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>css/demos/demo-law-firm.css">
 
-	<!-- Theme CSS -->
-	<link rel="stylesheet" href="css/theme.css">
-	<link rel="stylesheet" href="css/theme-elements.css">
-	<link rel="stylesheet" href="css/theme-blog.css">
-	<link rel="stylesheet" href="css/theme-shop.css">
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>css/skins/skin-law-firm.css"> 
 
-	<!-- Current Page CSS -->
-	<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
-	<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
-	<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
-	
-	<!-- Demo CSS -->
-	<link rel="stylesheet" href="css/demos/demo-law-firm.css">
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="<?php ldp_get_theme_base_path(); ?>css/custom.css">
 
-	<!-- Skin CSS -->
-	<link rel="stylesheet" href="css/skins/skin-law-firm.css"> 
+		<!-- Head Libs -->
+		<script src="<?php ldp_get_theme_base_path(); ?>vendor/modernizr/modernizr.min.js"></script>
 
-	<!-- Theme Custom CSS -->
-	<link rel="stylesheet" href="css/custom.css">
+		<!--?php wp_head(); ?-->	
+	</head>
 
-	<!-- Head Libs -->
-	<script src="vendor/modernizr/modernizr.min.js"></script>
-</head>
+	<body>
+		<div class="body">
+		
+		
 
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ldp' ); ?></a>
+			<header id="header" class="header-narrow header-no-border-bottom" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 115, 'stickySetTop': '-115px', 'stickyChangeLogo': true}">
+				<div class="header-body">
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-logo">
+										<a href="demo-law-firm.html">
+											<img alt="Porto" width="245" height="54" data-sticky-width="183" data-sticky-height="41" data-sticky-top="93" src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/logodark.png">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="header-column justify-content-end">
+								<div class="header-row">
+									<ul class="header-extra-info d-flex align-items-center">
+										<li>
+											<div class="feature-box feature-box-call feature-box-style-2 align-items-center">
+												<div class="feature-box-icon">
+													<i class="icon-call-end icons"></i>
+												</div>
+												<div class="feature-box-info">
+													<h4 class="mb-0">(800) 123-4567</h4>
+												</div>
+											</div>
+										</li>
+										<li class="d-none d-md-inline-flex">
+											<div class="feature-box feature-box-mail feature-box-style-2 align-items-center">
+												<div class="feature-box-icon">
+													<i class="icon-envelope icons"></i>
+												</div>
+												<div class="feature-box-info">
+													<h4 class="mb-0"><a href="mailto:mail@example.com">legalitaduepuntozero@gmail.com</a></h4>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header-nav-bar header-nav-bar-primary">
+						<div class="header-container container">
+							<div class="header-row">
+								<div class="header-column">
+									<div class="header-row">	
+										<div class="header-nav header-nav-stripe justify-content-start">
+											<div class="header-nav-main header-nav-main-light header-nav-main-effect-1 header-nav-main-sub-effect-1">
+												<nav class="collapse">
+													<ul class="nav nav-pills" id="mainNav">
+														<li>
+															<a class="nav-link active" href="#">
+																Home
+															</a>
+														</li>
+														<li>
+															<a class="nav-link" href="#">
+																Chi siamo
+															</a>
+															<ul class="dropdown-menu">
+																<li>
+																	<a>Team</a>
+																</li>
+															</ul>
+														</li>
+														<li>
+															<a class="nav-link" href="#">
+																Chi sei tu?
+															</a>
+														</li>														
+														<li>
+															<a class="nav-link" href="#">
+																Eventi
+															</a>
+														</li>
+														<li>
+															<a class="nav-link" href="#">
+																Contatti
+															</a>
+														</li>
+													</ul>
+												</nav>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="header-column justify-content-end">
+									<div class="header-row">
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+											Menu <i class="fas fa-bars"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$ldp_description = get_bloginfo( 'description', 'display' );
-			if ( $ldp_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $ldp_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ldp' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
+			<div role="main" class="main">
