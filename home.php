@@ -237,7 +237,7 @@ get_header();
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-lg-6 p-0">
-			<section class="section section-primary match-height" style="background-image: url(<?php ldp_get_theme_base_path(); ?>img/patterns/fancy.jpg);">
+			<section class="section section-primary match-height">
 				<div class="row justify-content-end ml-lg-5">
 					<div class="col-half-section col-half-section-right">
 						<h2 class="mb-0">Cosa pensano di noi</h2>
@@ -292,7 +292,7 @@ get_header();
 			</section>
 		</div>
 		<div class="col-lg-6 p-0 visible-md visible-lg">
-			<section class="parallax section section-parallax match-height" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/parallax/martello.jpg" style="min-height: 450px;">
+			<section class="parallax section section-parallax match-height" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/parallax/scrivonodinoi.jpg" style="min-height: 450px;">
 			</section>
 		</div>
 	</div>
@@ -303,8 +303,8 @@ get_header();
 		<div class="col-lg-12">
 			<h2 class="mt-5 mb-0">Hai domande o cerchi informazioni?</h2>
 			<p>Compila il form e sarai rincontattato.</p>
-			<div class="divider divider-primary divider-small mb-4">
-				<hr class="mr-auto">
+			<div class="divider divider-primary divider-small divider-small-center mb-4">
+				<hr>
 			</div>
 			<form id="contactForm" action="php/contact-form.php" method="POST">
 				<div class="form-row">
