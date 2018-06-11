@@ -1536,7 +1536,7 @@ window.theme.fn = {
 				buttonClass: 'scroll-to-top',
 				iconClass: 'fas fa-chevron-up',
 				delay: 1000,
-				visibleMobile: false,
+				visibleMobile: true,
 				label: false,
 				easing: 'easeOutBack'
 			},

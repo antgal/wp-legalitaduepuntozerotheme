@@ -15,21 +15,23 @@
 get_header();
 ?>
 
-<div class="slider-container rev_slider_wrapper" style="height: 650px;">
-	<div id="revolutionSlider" class="slider rev_slider manual" data-version="5.4.7">
+<div class="rev_slider_wrapper" style="height: 650px;">
+	<div id="revolutionSlider" class="rev_slider" data-version="5.4.7">
 		<ul>
-			<li data-transition="fade" data-title="Advocate Team" data-thumb="/images/cybge2r.png">
-				<img src="/images/cybge2r.png"  
-					alt=""
-					data-bgposition="center center" 
-					data-bgfit="cover" 
-					data-bgrepeat="no-repeat"
-					class="rev-slidebg">
+			<li data-transition="fade" data-title="Advocate Team" data-thumb="<?php ldp_get_theme_base_path(); ?>img/slide1.png">
+				<img src="<?php ldp_get_theme_base_path(); ?>img/slide1.png" alt="">
 			</li>
 		</ul>
 	</div>
 </div>
 <section class="section section-default section-no-border mt-0">
+	<div class="d-block d-lg-none text-center">
+		<ul class="header-social-icons social-icons mobileSocialIcons">
+			<li class="social-icons-facebook"><a href="https://www.facebook.com/legalitaduepuntozero" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+			<li class="social-icons-twitter"><a href="https://twitter.com/Legalita2" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+			<li class="social-icons-linkedin"><a href="https://www.linkedin.com/in/legalit%C3%A0-duepuntozero-a6762313b/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+		</ul>		
+	</div>
 	<div class="container pt-3 pb-4">
 		<div class="row justify-content-around">
 			<div class="col-lg-7 mb-4 mb-lg-0">
@@ -65,12 +67,12 @@ get_header();
 		<div class="col-lg-4">
 			<div class="feature-box feature-box-style-2 mb-4 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
 				<div class="feature-box-icon">
-					<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/icons/criminal-law.png" alt="" />
+					<i class="fas fa-school" style="font-size: 48px;"></i>
 				</div>
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Scuole</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Learn More <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -82,7 +84,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Università</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Learn More <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -94,7 +96,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Istituti penitenziari</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Learn More <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -109,7 +111,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Privati</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Learn More <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -121,7 +123,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Avvocati</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Learn More <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -133,187 +135,44 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Liberi professionisti</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Learn More <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-lg-6 p-0">
-			<section class="section section-primary match-height" style="background-image: url(<?php ldp_get_theme_base_path(); ?>img/patterns/fancy.jpg);">
-				<div class="row justify-content-end ml-lg-5">
-					<div class="col-half-section col-half-section-right">
-						<h2 class="mb-0">Testimonials</h2>
-						<div class="divider divider-light divider-small mb-4">
-							<hr class="mr-auto">
-						</div>
 
-						<div class="owl-carousel owl-theme mb-0" data-plugin-options="{'items': 1, 'margin': 10, 'loop': false, 'nav': false, 'dots': true}">
-							<div>
-								<div class="testimonial testimonial-style-3 testimonial-trasnparent-background testimonial-alternarive-font">
-									<blockquote class="text-light">
-										<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Phasellus semper scelerisque purus, et semper nisl lacinia sit amet. Praesent venenatis turpis vitae purus semper, eget sagittis velit venenatis.</p>
-									</blockquote>
-									<div class="testimonial-author">
-										<div class="testimonial-author-thumbnail">
-											<img src="<?php ldp_get_theme_base_path(); ?>img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
-										</div>
-										<p><strong>John Smith</strong><span class="text-light">CEO & Founder - Okler</span></p>
-									</div>
-								</div>
-							</div>
-							<div>
-								<div class="testimonial testimonial-style-3 testimonial-trasnparent-background testimonial-alternarive-font">
-									<blockquote class="text-light">
-										<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Phasellus semper scelerisque purus, et semper nisl lacinia sit amet.</p>
-									</blockquote>
-									<div class="testimonial-author">
-										<div class="testimonial-author-thumbnail">
-											<img src="<?php ldp_get_theme_base_path(); ?>img/clients/client-2.jpg" class="img-fluid rounded-circle" alt="">
-										</div>
-										<p><strong>Jessica Smith</strong><span class="text-light">Marketing - Okler</span></p>
-									</div>
-								</div>
-							</div>
-							<div>
-								<div class="testimonial testimonial-style-3 testimonial-trasnparent-background testimonial-alternarive-font">
-									<blockquote class="text-light">
-										<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Phasellus semper scelerisque purus, et semper nisl lacinia sit amet. Praesent venenatis turpis vitae purus semper, eget sagittis velit venenatis.</p>
-									</blockquote>
-									<div class="testimonial-author">
-										<div class="testimonial-author-thumbnail">
-											<img src="<?php ldp_get_theme_base_path(); ?>img/clients/client-3.jpg" class="img-fluid rounded-circle" alt="">
-										</div>
-										<p><strong>Bob Smith</strong><span class="text-light">COO - Okler</span></p>
-									</div>
-								</div>
-							</div>
-						</div>
 
-					</div>
-				</div>
-			</section>
-		</div>
-		<div class="col-lg-6 p-0 visible-md visible-lg">
-			<section class="parallax section section-parallax match-height" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/parallax/parallax-law-firm.jpg" style="min-height: 450px;">
-			</section>
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="mt-4 mb-0">Il nostro team</h2>
-				<div class="divider divider-primary divider-small divider-small-center mb-4">
-					<hr>
-				</div>
-			</div>
-		</div>
-		<div class="row mt-4">
-			<div class="owl-carousel owl-theme owl-team-custom show-nav-title mb-0" data-plugin-options="{'items': 4, 'margin': 10, 'loop': false, 'nav': true, 'dots': false}">
-				<div class="text-center mb-4">
-					<a href="demo-law-firm-attorneys-detail.html">
-						<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-22.jpg" class="img-fluid" alt="">
-					</a>
-					<h4 class="mt-3 mb-0">David Doe</h4>
-					<p class="mb-0">Criminal Law</p>
-					<span class="thumb-info-social-icons mt-2 pb-0">
-						<a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-						<a href="http://www.twitter.com"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-						<a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-					</p>
-				</div>
-				<div class="text-center mb-4">
-					<a href="demo-law-firm-attorneys-detail.html">
-						<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-23.jpg" class="img-fluid" alt="">
-					</a>
-					<h4 class="mt-3 mb-0">Jeff Doe</h4>
-					<p class="mb-0">Business Law</p>
-					<span class="thumb-info-social-icons mt-2 pb-0">
-						<a href="mailto:mail@example.com"><i class="far fa-envelope"></i><span>Email</span></a>
-						<a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-					</p>
-				</div>
-				<div class="text-center mb-4">
-					<a href="demo-law-firm-attorneys-detail.html">
-						<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-24.jpg" class="img-fluid" alt="">
-					</a>
-					<h4 class="mt-3 mb-0">Craig Doe</h4>
-					<p class="mb-0">Divorce Law</p>
-					<span class="thumb-info-social-icons mt-2 pb-0">
-						<a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-						<a href="http://www.twitter.com"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-						<a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-					</p>
-				</div>
-				<div class="text-center mb-4">
-					<a href="demo-law-firm-attorneys-detail.html">
-						<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-25.jpg" class="img-fluid" alt="">
-					</a>
-					<h4 class="mt-3 mb-0">Richard Doe</h4>
-					<p class="mb-0">Accident Law</p>
-					<span class="thumb-info-social-icons mt-2 pb-0">
-						<a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-					</p>
-				</div>
-				<div class="text-center mb-4">
-					<a href="demo-law-firm-attorneys-detail.html">
-						<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-29.jpg" class="img-fluid" alt="">
-					</a>
-					<h4 class="mt-3 mb-0">Amanda Doe</h4>
-					<p class="mb-0">Health Law</p>
-					<span class="thumb-info-social-icons mt-2 pb-0">
-						<a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-					</p>
-				</div>
-				<div class="text-center mb-4">
-					<a href="demo-law-firm-attorneys-detail.html">
-						<img src="<?php ldp_get_theme_base_path(); ?>img/team/team-30.jpg" class="img-fluid" alt="">
-					</a>
-					<h4 class="mt-3 mb-0">Jessica Doe</h4>
-					<p class="mb-0">Capital Law</p>
-					<span class="thumb-info-social-icons mt-2 pb-0">
-						<a href="http://www.linkedin.com"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-</div>
-
-<section class="parallax section section-text-light section-parallax section-center mt-5" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/parallax/parallax-law-firm-2.jpg">
+<section class="parallax section section-text-light section-parallax section-center mt-5" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/parallax/martello.jpg">
 	<div class="container">
 		<div class="row counters counters-text-light">
 			<div class="col-lg-3 col-sm-6">
 				<div class="counter mb-4 mt-4">
 					<i class="icon-user-following icons"></i>
-					<strong data-to="30000" data-append="+">0</strong>
-					<label>Happy Clients</label>
+					<strong data-to="15">0</strong>
+					<label>Membri</label>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="counter mb-4 mt-4">
 					<i class="icon-diamond icons"></i>
-					<strong data-to="15">0</strong>
-					<label>Years in Business</label>
+					<strong data-to="2" data-append="+">1</strong>
+					<label>Anni di attività</label>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="counter mb-4 mt-4">
 					<i class="icon-badge icons"></i>
-					<strong data-to="3">0</strong>
-					<label>Awards</label>
+					<strong data-to="20" data-append="+">0</strong>
+					<label>Convegni</label>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="counter mb-4 mt-4">
 					<i class="icon-paper-plane icons"></i>
-					<strong data-to="178">0</strong>
-					<label>Successful Stories</label>
+					<strong data-to="500" data-append="+">0</strong>
+					<label>Persone raggiunte</label>
 				</div>
 			</div>
 		</div>
@@ -375,53 +234,116 @@ get_header();
 	</div>
 </div>
 
-<section class="section section-background section-footer" style="background-image: url(<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/contact/contact-background.jpg); background-position: 50% 100%; background-size: cover;">
-	<div class="container">
-		<div class="row justify-content-end">
-			<div class="col-lg-6">
-				<h2 class="mt-5 mb-0">Request a Free Consultation</h2>
-				<p>Consult with our experienced team for complete solutions to your legal issues.</p>
-				<div class="divider divider-primary divider-small mb-4">
-					<hr class="mr-auto">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-6 p-0">
+			<section class="section section-primary match-height" style="background-image: url(<?php ldp_get_theme_base_path(); ?>img/patterns/fancy.jpg);">
+				<div class="row justify-content-end ml-lg-5">
+					<div class="col-half-section col-half-section-right">
+						<h2 class="mb-0">Cosa pensano di noi</h2>
+						<div class="divider divider-light divider-small mb-4">
+							<hr class="mr-auto">
+						</div>
+
+						<div class="owl-carousel owl-theme mb-0" data-plugin-options="{'items': 1, 'margin': 10, 'loop': false, 'nav': false, 'dots': true}">
+							<div>
+								<div class="testimonial testimonial-style-3 testimonial-trasnparent-background testimonial-alternarive-font">
+									<blockquote class="text-light">
+										<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Phasellus semper scelerisque purus, et semper nisl lacinia sit amet. Praesent venenatis turpis vitae purus semper, eget sagittis velit venenatis.</p>
+									</blockquote>
+									<div class="testimonial-author">
+										<div class="testimonial-author-thumbnail">
+											<img src="<?php ldp_get_theme_base_path(); ?>img/clients/client-1.jpg" class="img-fluid rounded-circle" alt="">
+										</div>
+										<p><strong>John Smith</strong><span class="text-light">CEO & Founder - Okler</span></p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="testimonial testimonial-style-3 testimonial-trasnparent-background testimonial-alternarive-font">
+									<blockquote class="text-light">
+										<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Phasellus semper scelerisque purus, et semper nisl lacinia sit amet.</p>
+									</blockquote>
+									<div class="testimonial-author">
+										<div class="testimonial-author-thumbnail">
+											<img src="<?php ldp_get_theme_base_path(); ?>img/clients/client-2.jpg" class="img-fluid rounded-circle" alt="">
+										</div>
+										<p><strong>Jessica Smith</strong><span class="text-light">Marketing - Okler</span></p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="testimonial testimonial-style-3 testimonial-trasnparent-background testimonial-alternarive-font">
+									<blockquote class="text-light">
+										<p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Phasellus semper scelerisque purus, et semper nisl lacinia sit amet. Praesent venenatis turpis vitae purus semper, eget sagittis velit venenatis.</p>
+									</blockquote>
+									<div class="testimonial-author">
+										<div class="testimonial-author-thumbnail">
+											<img src="<?php ldp_get_theme_base_path(); ?>img/clients/client-3.jpg" class="img-fluid rounded-circle" alt="">
+										</div>
+										<p><strong>Bob Smith</strong><span class="text-light">COO - Okler</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
 				</div>
-				<form id="contactForm" action="php/contact-form.php" method="POST">
-					<div class="form-row">
-						<div class="form-group col-sm-6">
-							<input type="text" value="" placeholder="Your name" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
-						</div>
-						<div class="form-group col-sm-6">
-							<input type="email" value="" placeholder="Your email address *" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col">
-							<input type="text" value="" placeholder="Subject" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col">
-							<textarea maxlength="5000" placeholder="Message *" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" required></textarea>
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col">
-							<input type="submit" value="Send Message" class="btn btn-primary mb-5" data-loading-text="Loading...">
-
-							<div class="alert alert-success d-none" id="contactSuccess">
-								Message has been sent to us.
-							</div>
-
-							<div class="alert alert-danger d-none" id="contactError">
-								Error sending your message.
-							</div>
-						</div>
-					</div>
-				</form>
-
-			</div>
+			</section>
+		</div>
+		<div class="col-lg-6 p-0 visible-md visible-lg">
+			<section class="parallax section section-parallax match-height" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}" data-image-src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/parallax/martello.jpg" style="min-height: 450px;">
+			</section>
 		</div>
 	</div>
-</section>
+</div>
+
+<div class="container">
+	<div class="row text-center">
+		<div class="col-lg-12">
+			<h2 class="mt-5 mb-0">Hai domande o cerchi informazioni?</h2>
+			<p>Compila il form e sarai rincontattato.</p>
+			<div class="divider divider-primary divider-small mb-4">
+				<hr class="mr-auto">
+			</div>
+			<form id="contactForm" action="php/contact-form.php" method="POST">
+				<div class="form-row">
+					<div class="form-group col-sm-6">
+						<input type="text" value="" placeholder="Nome *" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+					</div>
+					<div class="form-group col-sm-6">
+						<input type="email" value="" placeholder="Indirizzo email *" data-msg-required="Inserisci il tuo indirizzo email." data-msg-email="Inserisci un indirizzo email valido." maxlength="100" class="form-control" name="email" id="email" required>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col">
+						<input type="text" value="" placeholder="Oggetto *" data-msg-required="Inserisci l'oggetto del messaggio." maxlength="100" class="form-control" name="subject" id="subject" required>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col">
+						<textarea maxlength="5000" placeholder="Messaggio *" data-msg-required="Inserisci il messaggio." rows="3" class="form-control" name="message" id="message" required></textarea>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col">
+						<input type="submit" value="Invia la tua richiesta" class="btn btn-primary mb-5" data-loading-text="Caricamento...">
+
+						<div class="alert alert-success d-none" id="contactSuccess">
+							Messaggio inviato con successo.
+						</div>
+
+						<div class="alert alert-danger d-none" id="contactError">
+							Errore nell'invio del messaggio.
+						</div>
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</div>
+</div>
+
 
 <?php
 get_footer();

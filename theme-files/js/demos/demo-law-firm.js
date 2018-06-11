@@ -35,7 +35,7 @@ Theme Version:	6.2.1
 			},
 			arrows: {
 				style: "uranus",
-				enable: true,
+				enable: false,
 				hide_onmobile: false,
 				hide_onleave: false,
 				tmp: '',
@@ -53,7 +53,7 @@ Theme Version:	6.2.1
 				}
 			},
 			bullets: {
-				enable: true,
+				enable: false,
 				hide_onmobile: true,
 				style: "dione",
 				hide_onleave: false,

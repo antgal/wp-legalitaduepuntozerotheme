@@ -64,18 +64,15 @@
 
 	<body>
 		<div class="body">
-		
-		
-
-			<header id="header" class="header-narrow header-no-border-bottom" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 115, 'stickySetTop': '-115px', 'stickyChangeLogo': true}">
+			<header id="header" class="header-narrow header-no-border-bottom" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 60, 'stickySetTop': '-63px', 'stickyChangeLogo': true}">
 				<div class="header-body">
-					<div class="header-container container">
+					<div class="header-container container min-height-60 d-none d-lg-block">
 						<div class="header-row">
 							<div class="header-column">
 								<div class="header-row">
-									<div class="header-logo">
+									<div class="header-logo mt-1">
 										<a href="demo-law-firm.html">
-											<img alt="Porto" width="245" height="54" data-sticky-width="183" data-sticky-height="41" data-sticky-top="93" src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/logodark.png">
+											<img alt="Logo" width="245" height="54" data-sticky-width="164" data-sticky-height="36" data-sticky-top="78" src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/logodark.png">
 										</a>
 									</div>
 								</div>
@@ -83,23 +80,13 @@
 							<div class="header-column justify-content-end">
 								<div class="header-row">
 									<ul class="header-extra-info d-flex align-items-center">
-										<li>
-											<div class="feature-box feature-box-call feature-box-style-2 align-items-center">
+										<li class="border-0">
+											<div class="feature-box feature-box-call feature-box-style-2 align-items-center pr-0">
 												<div class="feature-box-icon">
-													<i class="icon-call-end icons"></i>
+													<i class="icon-envelope icons font-size-20"></i>
 												</div>
 												<div class="feature-box-info">
-													<h4 class="mb-0">(800) 123-4567</h4>
-												</div>
-											</div>
-										</li>
-										<li class="d-none d-md-inline-flex">
-											<div class="feature-box feature-box-mail feature-box-style-2 align-items-center">
-												<div class="feature-box-icon">
-													<i class="icon-envelope icons"></i>
-												</div>
-												<div class="feature-box-info">
-													<h4 class="mb-0"><a href="mailto:mail@example.com">legalitaduepuntozero@gmail.com</a></h4>
+													<h4 class="mb-0 font-size-15">legalitaduepuntozero@gmail.com</h4>
 												</div>
 											</div>
 										</li>
@@ -113,23 +100,37 @@
 							<div class="header-row">
 								<div class="header-column">
 									<div class="header-row">	
+										<img alt="Logo" id="headerLogoMiniImg" class="d-block d-lg-none" src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/logodark.png">
 										<div class="header-nav header-nav-stripe justify-content-start">
 											<div class="header-nav-main header-nav-main-light header-nav-main-effect-1 header-nav-main-sub-effect-1">
 												<nav class="collapse">
 													<ul class="nav nav-pills" id="mainNav">
 														<li>
-															<a class="nav-link active" href="#">
+															<a class="nav-link" href="#">
 																Home
 															</a>
 														</li>
-														<li>
-															<a class="nav-link" href="#">
+
+														<li class="dropdown">
+															<a class="dropdown-item dropdown-toggle" href="#">
 																Chi siamo
 															</a>
 															<ul class="dropdown-menu">
 																<li>
-																	<a>Team</a>
+																	<a class="dropdown-item" href="#">
+																		L'associazione
+																	</a>
 																</li>
+																<li>
+																	<a class="dropdown-item" href="#">
+																		Team
+																	</a>
+																</li>
+																<li>
+																	<a class="dropdown-item" href="#">
+																		Contatti
+																	</a>
+																</li>																
 															</ul>
 														</li>
 														<li>
@@ -150,13 +151,21 @@
 													</ul>
 												</nav>
 											</div>
+											<div style="float:left;">
+
+											</div>
 										</div>
 									</div>
 								</div>
 								<div class="header-column justify-content-end">
 									<div class="header-row">
+										<ul class="header-social-icons social-icons d-none d-lg-block">
+											<li class="social-icons-facebook"><a href="https://www.facebook.com/legalitaduepuntozero" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+											<li class="social-icons-twitter"><a href="https://twitter.com/Legalita2" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+											<li class="social-icons-linkedin"><a href="https://www.linkedin.com/in/legalit%C3%A0-duepuntozero-a6762313b/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
 										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
-											Menu <i class="fas fa-bars"></i>
+											<i class="fas fa-bars"></i>
 										</button>
 									</div>
 								</div>
