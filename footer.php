@@ -12,39 +12,52 @@
 ?>
 
 		</div> <!-- <div role="main" class="main"> -->
-
 			<footer class="short" id="footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-5">
-							<a href="demo-law-firm.html" class="logo mb-3">
-								<img alt="Porto Website Template" class="img-fluid" width="97" height="32" src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/logo-law-firm-footer.png">
-							</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna. Phasellus semper scelerisque purus, et semper nisl lacinia sit amet. Praesent venenatis turpis vitae purus semper, eget sagittis velit venenatis.</p>
+						<div class="col-lg-3">
+							<h4>Legalità 2.0</h4>
+								<ul class="list list-icons list-unstyled mt-4">
+									<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>chi-siamo-associazione">Chi Siamo</a> </li>
+									<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>servizi">Servizi</a> </li> <!-- Contatti -->
+									<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>news">News</a> </li>
+									<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>eventi">Eventi</a> </li> 
+								</ul>
 						</div>
 						<div class="col-lg-3 ml-lg-auto">
-							<h5 class="mb-2">Porto Law Firm</h5>
-							<ul class="list list-icons mt-4 pt-2">
-								<li><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</li>
-								<li><i class="far fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></li>
+							<h4>Contattaci</h4>
+							<ul class="list list-icons mt-4 text-white">
+								<li><i class="fas fa-comments"></i><a href="<?php ldp_get_base_path(); ?>contatti/">Inviaci un messaggio</a></li>							
+								<li><i class="fas fa-map-marker-alt"></i>Piazza Casalbore 25, 8124, Salerno</li>
+								<li><i class="fas fa-envelope"></i> <a href="mailto:legalitaduepuntozero@gmail.com">legalitaduepuntozero@gmail.com</a></li>
+								<li><i class="fas fa-phone"></i>+39 331 3100320, +39 349 1964537</li>
+
 							</ul>
 						</div>
 						<div class="col-lg-3">
-							<h5 class="mb-2">Toll Free</h5>
-							<span class="phone">(800) 123-4567</span>
-							<ul class="social-icons mt-4">
-								<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-								<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+							<h4>Risorse</h4>
+							<ul class="list list-icons list-unstyled mt-4">
+								<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>gallery/">Gallery</a> </li>
+								<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>slangpedia/">Slangpedia</a> </li>
+								<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>cookie-policy/">Cookie policy</a> </li>
+								<li><i class="fas fa-caret-right"></i> <a href="<?php ldp_get_base_path(); ?>privacy-policy/">Privacy policy</a> </li>								
 							</ul>
 						</div>
+						<div class="col-lg-3">
+							<h4>Seguici su</h4>
+							<ul class="social-icons mt-4">
+								<li class="social-icons-facebook"><a href="https://www.facebook.com/legalitaduepuntozero" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+								<li class="social-icons-twitter"><a href="https://twitter.com/Legalita2" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+								<li class="social-icons-linkedin"><a href="https://www.linkedin.com/in/legalit%C3%A0-duepuntozero-a6762313b/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>						
 					</div>
 				</div>
 				<div class="footer-copyright">
 					<div class="container">
 						<div class="row">
 							<div class="col">
-								<p>© Copyright 2018. All Rights Reserved. | <a href="demo-law-firm-contact-us.html">Contact</a></p>
+								<p>© Copyright 2018 Legalità 2.0</p>
 							</div>
 						</div>
 					</div>

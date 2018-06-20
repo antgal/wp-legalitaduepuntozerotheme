@@ -86,7 +86,7 @@
 													<i class="icon-envelope icons font-size-20"></i>
 												</div>
 												<div class="feature-box-info">
-													<h4 class="mb-0 font-size-15">legalitaduepuntozero@gmail.com</h4>
+													<h4 class="mb-0 font-size-15"><a href="mailto:legalitaduepuntozero@gmail.com">legalitaduepuntozero@gmail.com</a></h4>
 												</div>
 											</div>
 										</li>
@@ -106,45 +106,60 @@
 												<nav class="collapse">
 													<ul class="nav nav-pills" id="mainNav">
 														<li>
-															<a class="nav-link" href="#">
+															<a class="nav-link" href="<?php ldp_get_base_path(); ?>">
 																Home
 															</a>
 														</li>
 
 														<li class="dropdown">
-															<a class="dropdown-item dropdown-toggle" href="#">
+															<a class="dropdown-item dropdown-toggle" href="<?php ldp_get_base_path(); ?>chi-siamo-associazione">
 																Chi siamo
 															</a>
 															<ul class="dropdown-menu">
 																<li>
-																	<a class="dropdown-item" href="#">
-																		L'associazione
+																	<a class="dropdown-item" href="<?php ldp_get_base_path(); ?>chi-siamo-associazione">
+																		Associazione
 																	</a>
 																</li>
 																<li>
-																	<a class="dropdown-item" href="#">
+																	<a class="dropdown-item" href="<?php ldp_get_base_path(); ?>chi-siamo-team">
 																		Team
 																	</a>
 																</li>
 																<li>
-																	<a class="dropdown-item" href="#">
+																	<a class="dropdown-item" href="<?php ldp_get_base_path(); ?>contatti">
 																		Contatti
 																	</a>
 																</li>																
 															</ul>
 														</li>
 														<li>
-															<a class="nav-link" href="#">
+															<a class="nav-link" href="<?php ldp_get_base_path(); ?>chi-sei-tu">
 																Chi sei tu?
 															</a>
-														</li>														
+														</li>	
 														<li>
-															<a class="nav-link" href="#">
+															<a class="nav-link" href="<?php ldp_get_base_path(); ?>servizi">
+																Servizi
+															</a>
+														</li>															
+														<li>
+															<a class="nav-link" href="<?php ldp_get_base_path(); ?>news">
+																News
+															</a>
+														</li>																											
+														<li>
+															<a class="nav-link" href="<?php ldp_get_base_path(); ?>eventi">
 																Eventi
 															</a>
 														</li>
 														<li>
-															<a class="nav-link" href="#">
+															<a class="nav-link" href="<?php ldp_get_base_path(); ?>gallery">
+																Gallery
+															</a>
+														</li>														
+														<li>
+															<a class="nav-link" href="<?php ldp_get_base_path(); ?>contatti">
 																Contatti
 															</a>
 														</li>

@@ -67,7 +67,7 @@ get_header();
 		<div class="col-lg-4">
 			<div class="feature-box feature-box-style-2 mb-4 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
 				<div class="feature-box-icon">
-					<i class="fas fa-school" style="font-size: 48px;"></i>
+					<img src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/icons/business-law.png" alt="" />
 				</div>
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Scuole</h4>
@@ -182,7 +182,7 @@ get_header();
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12 text-center">
-			<h2 class="mt-4 mb-0">Latest News</h2>
+			<h2 class="mt-4 mb-0"><a href="#">Ultime News</a></h2>
 			<div class="divider divider-primary divider-small divider-small-center mb-4">
 				<hr>
 			</div>
@@ -309,7 +309,7 @@ get_header();
 			<form id="contactForm" action="php/contact-form.php" method="POST">
 				<div class="form-row">
 					<div class="form-group col-sm-6">
-						<input type="text" value="" placeholder="Nome *" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+						<input type="text" value="" placeholder="Nome *" data-msg-required="Inserisci il tuo nome." maxlength="100" class="form-control" name="name" id="name" required>
 					</div>
 					<div class="form-group col-sm-6">
 						<input type="email" value="" placeholder="Indirizzo email *" data-msg-required="Inserisci il tuo indirizzo email." data-msg-email="Inserisci un indirizzo email valido." maxlength="100" class="form-control" name="email" id="email" required>

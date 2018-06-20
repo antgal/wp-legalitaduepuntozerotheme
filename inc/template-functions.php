@@ -39,5 +39,11 @@ add_action( 'wp_head', 'ldp_pingback_header' );
 /**Return the base path of the theme
  */
 function ldp_get_theme_base_path() {
-	echo 'wp-content/themes/ldp/theme-files/';
+	echo 'http://www.legalitaduepuntozero.com/nuovo/wp-content/themes/ldp/theme-files/';
+}
+
+/**Return the root path of the web site
+ */
+function ldp_get_base_path() {
+	echo 'http://www.legalitaduepuntozero.com/nuovo/';
 }
