@@ -32,38 +32,6 @@ Theme Version:	6.2.1
 				swipe_min_touches: 1,
 				swipe_direction: "horizontal",
 				drag_block_vertical: false
-			},
-			arrows: {
-				style: "uranus",
-				enable: false,
-				hide_onmobile: false,
-				hide_onleave: false,
-				tmp: '',
-				left: {
-					h_align: "left",
-					v_align: "center",
-					h_offset: 20,
-					v_offset: 0
-				},
-				right: {
-					h_align: "right",
-					v_align: "center",
-					h_offset: 20,
-					v_offset: 0
-				}
-			},
-			bullets: {
-				enable: false,
-				hide_onmobile: true,
-				style: "dione",
-				hide_onleave: false,
-				direction: "horizontal",
-				h_align: "center",
-				v_align: "bottom",
-				h_offset: 20,
-				v_offset: 30,
-				space: 5,
-				tmp: '<span class="tp-bullet-img-wrap">  <span class="tp-bullet-image"></span></span><span class="tp-bullet-title">{{title}}</span>'
 			}
 		}
 	});

@@ -71,7 +71,7 @@
 							<div class="header-column">
 								<div class="header-row">
 									<div class="header-logo mt-1">
-										<a href="demo-law-firm.html">
+										<a href="<?php ldp_get_base_path(); ?>">
 											<img alt="Logo" width="245" height="54" data-sticky-width="164" data-sticky-height="36" data-sticky-top="78" src="<?php ldp_get_theme_base_path(); ?>img/demos/law-firm/logodark.png">
 										</a>
 									</div>
@@ -115,7 +115,7 @@
 															<a class="dropdown-item dropdown-toggle" href="<?php ldp_get_base_path(); ?>chi-siamo-associazione">
 																Chi siamo
 															</a>
-															<ul class="dropdown-menu">
+															<ul class="dropdown-menu mt-0">
 																<li>
 																	<a class="dropdown-item" href="<?php ldp_get_base_path(); ?>chi-siamo-associazione">
 																		Associazione

@@ -1,20 +1,14 @@
 <?php
 /**
- * The main template file
+ * The template for the Home page
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * Template Name: Home Page
  *
  * @package LDP
  */
 
 get_header();
 ?>
-HOME.PHP
 <div class="rev_slider_wrapper" style="height: 650px;">
 	<div id="revolutionSlider" class="rev_slider" data-version="5.4.7">
 		<ul>
@@ -39,7 +33,12 @@ HOME.PHP
 				<div class="divider divider-primary divider-small mb-4">
 					<hr class="mr-auto">
 				</div>
-				<p class="mt-4">L’Associazione denominata “ LEGALITA’ 2.0 – ONLUS” ha sede in Salerno (SA), Piazza Casalbore n. 25. In uno scenario caratterizzato da un continuo incremento dei reati on-line, causa la scarsa informazione e la continua evoluzione, l'Associazione Legalità 2.0 ha realizzato una macchina organizzativa di professionisti capace di offrire concreto supporto alla vittima attraverso: la sensibilizzazione e la responsabilizzazione dell' utenza sui rischi cui è possibile incorrere con l'uso degli strumenti informatici, la prevenzione in istituti scolastici, e la completa assistenza della vittima.</p>
+				<p class="mt-4">
+					<?php
+						$variable = get_field('descrizione_1');
+						echo $variable
+					?>
+				</p>
 
 				<a class="mt-3" href="demo-law-firm-about-us.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 			</div>
@@ -302,48 +301,15 @@ HOME.PHP
 	<div class="row text-center">
 		<div class="col-lg-12">
 			<h2 class="mt-5 mb-0">Hai domande o cerchi informazioni?</h2>
-			<p>Compila il form e sarai rincontattato.</p>
-			<div class="divider divider-primary divider-small divider-small-center mb-4">
-				<hr>
+			<p>Scrivici o chiamaci e otterrai tutte le informazioni di cui hai bisogno</p>
+			<div class="form-row">
+				<div class="form-group col">
+					<a class="btn btn-primary mb-5" href="<?php ldp_get_base_path(); ?>contatti" >Contattaci</a>
+				</div>
 			</div>
-			<form id="contactForm" action="php/contact-form.php" method="POST">
-				<div class="form-row">
-					<div class="form-group col-sm-6">
-						<input type="text" value="" placeholder="Nome *" data-msg-required="Inserisci il tuo nome." maxlength="100" class="form-control" name="name" id="name" required>
-					</div>
-					<div class="form-group col-sm-6">
-						<input type="email" value="" placeholder="Indirizzo email *" data-msg-required="Inserisci il tuo indirizzo email." data-msg-email="Inserisci un indirizzo email valido." maxlength="100" class="form-control" name="email" id="email" required>
-					</div>
-				</div>
-				<div class="form-row">
-					<div class="form-group col">
-						<input type="text" value="" placeholder="Oggetto *" data-msg-required="Inserisci l'oggetto del messaggio." maxlength="100" class="form-control" name="subject" id="subject" required>
-					</div>
-				</div>
-				<div class="form-row">
-					<div class="form-group col">
-						<textarea maxlength="5000" placeholder="Messaggio *" data-msg-required="Inserisci il messaggio." rows="3" class="form-control" name="message" id="message" required></textarea>
-					</div>
-				</div>
-				<div class="form-row">
-					<div class="form-group col">
-						<input type="submit" value="Invia la tua richiesta" class="btn btn-primary mb-5" data-loading-text="Caricamento...">
-
-						<div class="alert alert-success d-none" id="contactSuccess">
-							Messaggio inviato con successo.
-						</div>
-
-						<div class="alert alert-danger d-none" id="contactError">
-							Errore nell'invio del messaggio.
-						</div>
-					</div>
-				</div>
-			</form>
-
 		</div>
 	</div>
 </div>
-
 
 <?php
 get_footer();
