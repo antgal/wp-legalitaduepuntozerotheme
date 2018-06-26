@@ -27,11 +27,10 @@
 						<div class="col-lg-3 ml-lg-auto">
 							<h4>Contattaci</h4>
 							<ul class="list list-icons mt-4 text-white">
-								<li><i class="fas fa-comments"></i><a href="<?php ldp_get_base_path(); ?>contatti/">Inviaci un messaggio</a></li>							
+								<li><i class="fas fa-map"></i><a href="<?php ldp_get_base_path(); ?>contatti/">Dove Siamo</a></li>							
 								<li><i class="fas fa-map-marker-alt"></i>Piazza Casalbore 25, 8124, Salerno</li>
 								<li><i class="fas fa-envelope"></i> <a href="mailto:legalitaduepuntozero@gmail.com">legalitaduepuntozero@gmail.com</a></li>
-								<li><i class="fas fa-phone"></i>+39 331 3100320, +39 349 1964537</li>
-
+								<li><i class="fas fa-phone"></i>+39 349 692 3244</li>
 							</ul>
 						</div>
 						<div class="col-lg-3">
