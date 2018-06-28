@@ -12,7 +12,7 @@
 ?>
 
 		</div> <!-- <div role="main" class="main"> -->
-			<footer class="short" id="footer">
+			<footer class="short mt-0" id="footer">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-3">

@@ -9,7 +9,20 @@
 
 get_header();
 ?>
-<div class="rev_slider_wrapper" style="height: 650px;">
+
+<section class="section section-text-light section-center section-header mt-0 mb-0 border-top-0 p-0" style="background: radial-gradient(circle, #78b4d2 0%, #165b77 100%);">
+	<div class="section-header-text">
+		<div class="container">
+			<img alt="Logo" class="img-fluid" src="<?php ldp_get_theme_base_path(); ?>img/logo-ldp0.png">
+			<div class="row center text-center mt-5" >
+				<h1 class="mx-auto w-100" style="color:#0c0c0c !important; font-size:5em;">Legalit&agrave; 2.0</h1>
+				<h2 class="mx-auto w-100" style="color:#0c0c0c !important">Associazione vittime reati online</h2> 
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--div class="rev_slider_wrapper" style="height: 650px;display:none;">
 	<div id="revolutionSlider" class="rev_slider" data-version="5.4.7">
 		<ul>
 			<li data-transition="fade" data-title="Advocate Team" data-thumb="<?php ldp_get_theme_base_path(); ?>img/slide1.png">
@@ -17,7 +30,8 @@ get_header();
 			</li>
 		</ul>
 	</div>
-</div>
+</div-->
+
 <section class="section section-default section-no-border mt-0">
 	<div class="d-block d-lg-none text-center">
 		<ul class="header-social-icons social-icons mobileSocialIcons">

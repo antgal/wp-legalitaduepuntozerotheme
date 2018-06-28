@@ -9,7 +9,7 @@
 
 get_header();
 ?>
-<section class="section section-text-light section-center section-contatti section-header mt-0 border-top-0 p-0" style="background:#ffffff url(<?php ldp_get_theme_base_path(); ?>img/contact_ldp.jpg) no-repeat center center;">
+<section class="section section-text-light section-center section-box section-header mt-0 border-top-0 p-0" style="background:#ffffff url(<?php ldp_get_theme_base_path(); ?>img/contact_ldp.jpg) no-repeat center center;">
 	<div class="section-overlay">
 		<div class="container">
 				<div class="row center text-center mt-5">
@@ -24,7 +24,7 @@ get_header();
   <div class="container mt70 mb70">
     <div class="text-center">
       <h3 style='font-size:2.6em;text-transform:none !important;'>Le nostre sedi</h3> 
-		</div>
+	</div>
 		
 		<div class="row">
 			<div class="col-md-6 col-sm-6 col-xs-12 text-center contact-map-container">
