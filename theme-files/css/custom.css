@@ -104,3 +104,13 @@
 
 
 /*---------END CONTACT-----------*/
+
+/*---------START SERVIZI-----------*/
+.service-box-row {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+/*---------END SERVIZI-----------*/

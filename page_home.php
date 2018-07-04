@@ -13,7 +13,7 @@ get_header();
 <section class="section section-text-light section-center section-header mt-0 mb-0 border-top-0 p-0" style="background: radial-gradient(circle, #78b4d2 0%, #165b77 100%);">
 	<div class="section-header-text">
 		<div class="container">
-			<img alt="Logo" class="img-fluid" src="<?php ldp_get_theme_base_path(); ?>img/logo-ldp0.png">
+			<img alt="Logo" class="img-fluid" src="<?php ldp_get_theme_base_path(); ?>img/logo-ldp0.png" style="height:220px;">
 			<div class="row center text-center mt-5" >
 				<h1 class="mx-auto w-100" style="color:#0c0c0c !important; font-size:5em;">Legalit&agrave; 2.0</h1>
 				<h2 class="mx-auto w-100" style="color:#0c0c0c !important">Associazione vittime reati online</h2> 
@@ -21,16 +21,6 @@ get_header();
 		</div>
 	</div>
 </section>
-
-<!--div class="rev_slider_wrapper" style="height: 650px;display:none;">
-	<div id="revolutionSlider" class="rev_slider" data-version="5.4.7">
-		<ul>
-			<li data-transition="fade" data-title="Advocate Team" data-thumb="<?php ldp_get_theme_base_path(); ?>img/slide1.png">
-				<img src="<?php ldp_get_theme_base_path(); ?>img/slide1.png" alt="">
-			</li>
-		</ul>
-	</div>
-</div-->
 
 <section class="section section-default section-no-border mt-0">
 	<div class="d-block d-lg-none text-center">
@@ -54,7 +44,7 @@ get_header();
 					?>
 				</p>
 
-				<a class="mt-3" href="demo-law-firm-about-us.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
+				<a class="mt-3" href="<?php ldp_get_base_path(); ?>chi-siamo-associazione">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 			</div>
 			<div class="col-lg-4">
 				<h4 class="mb-0">Il nostro motto</h4>
@@ -85,7 +75,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Scuole</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="<?php ldp_get_base_path(); ?>servizi">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -97,7 +87,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Università</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="<?php ldp_get_base_path(); ?>servizi">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -109,7 +99,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Istituti penitenziari</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="<?php ldp_get_base_path(); ?>servizi">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -124,7 +114,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Privati</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="<?php ldp_get_base_path(); ?>servizi">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -136,7 +126,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Avvocati</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="<?php ldp_get_base_path(); ?>servizi">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
@@ -148,7 +138,7 @@ get_header();
 				<div class="feature-box-info ml-3">
 					<h4 class="mb-2">Liberi professionisti</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-					<a class="mt-3" href="demo-law-firm-practice-areas-detail.html">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
+					<a class="mt-3" href="<?php ldp_get_base_path(); ?>servizi">Scopri di più <i class="fas fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 		</div>
