@@ -35,7 +35,7 @@ get_header();
 			e la completa assistenza della vittima.
 			</p>
 
-		<a class="btn btn-primary mb-5 mt-3" href="<?php ldp_get_base_path(); ?>chi-siamo-team">Conosci il team</a>		
+		<a class="btn btn-primary btn-bordered mb-5 mt-3" href="<?php ldp_get_base_path(); ?>chi-siamo-team">Conosci il team</a>		
 		</div>
 	</div>
 </div>
@@ -48,7 +48,7 @@ get_header();
 
 		<h2 style="font-size:22px;">Salerno e Varese</h2>
 
-		<a class="btn btn-primary mb-5" href="<?php ldp_get_base_path(); ?>contatti">Contattaci</a>		
+		<a class="btn btn-primary btn-bordered mb-5" href="<?php ldp_get_base_path(); ?>contatti">Contattaci</a>		
 
 	</div>
 </section>

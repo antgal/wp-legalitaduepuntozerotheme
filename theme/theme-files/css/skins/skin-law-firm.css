@@ -407,37 +407,37 @@ html .badge-light {
 
 html .btn-primary {
 	background-color: #165b77;
-	border-color: #165b77 #165b77 #c39341;
+	border-color: #165b77 #165b77 #165b77;
 	color: #ffffff;
 }
 
 html .btn-primary:hover,
 html .btn-primary.hover {
-	background-color: #d8ba85;
-	border-color: #dbbf8f #dbbf8f #165b77;
+	background-color: #165b77;
+	border-color: #165b77 #165b77 #165b77;
 	color: #ffffff;
 }
 
 html .btn-primary:focus,
 html .btn-primary.focus {
-	-webkit-box-shadow: 0 0 0 3px rgba(207, 169, 104, 0.5);
-	box-shadow: 0 0 0 3px rgba(207, 169, 104, 0.5);
+	-webkit-box-shadow: 0 0 0 3px rgba(22, 91, 119, 0.5);
+	box-shadow: 0 0 0 3px rgba(22, 91, 119, 0.5);
 }
 
 html .btn-primary.disabled,
 html .btn-primary:disabled {
 	background-color: #165b77;
-	border-color: #165b77 #165b77 #c39341;
+	border-color: #165b77 #165b77 #165b77;
 }
 
 html .btn-primary:active,
 html .btn-primary.active,
 .show > html .btn-primary.dropdown-toggle {
-	background-color: #c6984b !important;
+	background-color: #165b77 !important;
 	background-image: none !important;
-	border-color: #c39341 #c39341 #9f7732 !important;
-	-webkit-box-shadow: 0 0 0 0.2rem rgba(207, 169, 104, 0.5) !important;
-	box-shadow: 0 0 0 0.2rem rgba(207, 169, 104, 0.5) !important;
+	border-color: #165b77 #165b77 #165b77 !important;
+	-webkit-box-shadow: 0 0 0 0.2rem rgba(22, 91, 119, 0.5) !important;
+	box-shadow: 0 0 0 0.2rem rgba(22, 91, 119, 0.5) !important;
 }
 
 html .btn-primary-scale-2 {

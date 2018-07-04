@@ -282,7 +282,7 @@ get_header();
 				<p>Scrivici o chiamaci e otterrai tutte le informazioni di cui hai bisogno</p>
 				<div class="form-row">
 					<div class="form-group col">
-						<a class="btn btn-primary mb-5" href="<?php ldp_get_base_path(); ?>contatti">Contattaci</a>
+						<a class="btn btn-primary btn-bordered mb-5" href="<?php ldp_get_base_path(); ?>contatti">Contattaci</a>
 					</div>
 				</div>
 			</div>

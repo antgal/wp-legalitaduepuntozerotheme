@@ -113,4 +113,16 @@
     margin-bottom: 20px;
     min-height: 300px;
 }
+
+.fs-16
+{
+    font-size: 16px;
+}
+
+.btn-primary.btn-bordered {
+    background: transparent;
+    border-color: #165b77;
+    border-width:3px;
+    color: #165b77;
+}
 /*---------END SERVIZI-----------*/
